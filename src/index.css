@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .show-red-message::after {
+        content: "Can't be empty";
+        display: block;
+        height: 50px;
+        color: #EA5555;
+
+
+    }
+}
